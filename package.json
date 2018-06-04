@@ -1,0 +1,31 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./build && webpack --config webpack.server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipinyadav610/express-api.git"
+  },
+  "author": "Vipin Yadav <adi19910810@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipinyadav610/express-api/issues"
+  },
+  "homepage": "https://github.com/vipinyadav610/express-api#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "start-server-webpack-plugin": "^2.2.5",
+    "swagger-ui-express": "^3.0.9",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
